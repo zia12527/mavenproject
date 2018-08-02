@@ -37,7 +37,7 @@ public class mvtest {
 	  @Test
 	  public void f()
 	  {
-		 System.out.println("Hi test message ..... "); 
+		 System.out.println("Hi test message . "); 
 		 driver.findElement(By.xpath("/html/body/div[1]/div[8]/div/div[2]/div/div/div[1]/input")).sendKeys("Ziaqa10");
 		 driver.findElement(By.xpath("/html/body/div[1]/div[8]/div/div[2]/div/div/div[2]/input")).sendKeys("Nadsoft");
 		 driver.findElement(By.xpath("/html/body/div[1]/div[8]/div/div[2]/div/div/div[3]/input")).sendKeys("ziaqa10@gmail.com");
