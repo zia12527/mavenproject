@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="14214" started-at="2018-08-02T12:38:30Z" finished-at="2018-08-02T12:38:44Z">
+  <suite name="Default suite" duration-ms="19909" started-at="2018-08-02T13:45:36Z" finished-at="2018-08-02T13:45:56Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="14214" started-at="2018-08-02T12:38:30Z" finished-at="2018-08-02T12:38:44Z">
+    <test name="Default test" duration-ms="19909" started-at="2018-08-02T13:45:36Z" finished-at="2018-08-02T13:45:56Z">
       <class name="test03.test03.mvtest">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test03.test03.mvtest@59fa1d9b]" name="beforeClass" is-config="true" duration-ms="10640" started-at="2018-08-02T12:38:30Z" finished-at="2018-08-02T12:38:40Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test03.test03.mvtest@59fa1d9b]" name="beforeClass" is-config="true" duration-ms="16534" started-at="2018-08-02T13:45:36Z" finished-at="2018-08-02T13:45:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test03.test03.mvtest@59fa1d9b]" name="beforeMethod" is-config="true" duration-ms="1001" started-at="2018-08-02T12:38:40Z" finished-at="2018-08-02T12:38:41Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test03.test03.mvtest@59fa1d9b]" name="beforeMethod" is-config="true" duration-ms="1001" started-at="2018-08-02T13:45:52Z" finished-at="2018-08-02T13:45:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="f()[pri:0, instance:test03.test03.mvtest@59fa1d9b]" name="f" duration-ms="1535" started-at="2018-08-02T12:38:41Z" finished-at="2018-08-02T12:38:43Z">
+        <test-method status="PASS" signature="f()[pri:0, instance:test03.test03.mvtest@59fa1d9b]" name="f" duration-ms="1330" started-at="2018-08-02T13:45:53Z" finished-at="2018-08-02T13:45:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test03.test03.mvtest@59fa1d9b]" name="afterMethod" is-config="true" duration-ms="1001" started-at="2018-08-02T12:38:43Z" finished-at="2018-08-02T12:38:44Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test03.test03.mvtest@59fa1d9b]" name="afterMethod" is-config="true" duration-ms="1003" started-at="2018-08-02T13:45:55Z" finished-at="2018-08-02T13:45:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
