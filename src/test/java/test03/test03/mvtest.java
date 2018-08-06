@@ -15,7 +15,8 @@ public class mvtest {
 	@BeforeClass
 	  public void beforeClass() throws InterruptedException 
 	  {
-		  System.setProperty("webdriver.chrome.driver", "/home/nadsoft34/Desktop/chromedriver");
+			String str = "/home/nadsoft34/Desktop/chromedriver";
+		  System.setProperty("webdriver.chrome.driver", str);
 			 driver = new ChromeDriver();  
 			 driver.manage().window().maximize();
 			 driver.get("https://maxincomesystem.com/registration");
@@ -37,7 +38,7 @@ public class mvtest {
 	  @Test
 	  public void f()
 	  {
-		 System.out.println("Hi test message.."); 
+		 System.out.println("Hi test message....."); 
 		 driver.findElement(By.xpath("/html/body/div[1]/div[8]/div/div[2]/div/div/div[1]/input")).sendKeys("Ziaqa10");
 		 driver.findElement(By.xpath("/html/body/div[1]/div[8]/div/div[2]/div/div/div[2]/input")).sendKeys("Nadsoft");
 		 driver.findElement(By.xpath("/html/body/div[1]/div[8]/div/div[2]/div/div/div[3]/input")).sendKeys("ziaqa10@gmail.com");
